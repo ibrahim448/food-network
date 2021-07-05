@@ -3,13 +3,13 @@ body{
     margin: 0;
 }
 
-.top-header{
+.display-flex{
     display: flex;
 }
 /******* Left-side Start********/
 .left-side{
     width: 50%;
-    padding-left: 100px;
+    padding-left: 60px;
     padding-top: 50px;
 }
 .left-side h1{
@@ -20,10 +20,11 @@ body{
 }
 .left-side p{
     font-size: 17px;
+    color: #7f8fa6;
     text-align: justify;
     margin-bottom: 35px;
 }
-.left-side .click-button{
+.click-button{
     text-decoration: none;
     color: #fff;
     background-image: linear-gradient(crimson, violet);
@@ -43,3 +44,43 @@ body{
     width: 90%;
 }
 /************Right-side End*************/
+
+/*************About-me start**************/
+#about-me{
+ background-image: url(images/about-me-bg-img.png);
+ background-repeat: no-repeat;
+ margin-top: 70px;
+}
+
+/**********Image**************/
+.about-me-image{
+    width: 50%;
+}
+.about-me-image img{
+    width: 70%;
+    padding-left: 200px;
+    padding-top: 60px;
+}
+
+/************Title************/
+.about-me-title{
+    width: 50%;
+    padding-top: 80px;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+.about-me-title h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: crimson;
+}
+.about-me-title p{
+    padding-bottom: 25px;
+    text-align: justify;
+    color: #7f8fa6;
+}
+.about-me-title p span{
+    color: crimson;
+    font-weight: 700;
+}
+/************About-me End***********************/
