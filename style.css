@@ -3,27 +3,70 @@ body{
     margin: 0;
     padding: 0;
 }
-
 h1{
     font-size: 50px;
 }
-
+/*****************HEADER SECTION START*********************/
 .display-flex{
     display: flex;
 }
-/******* Left-side Start********/
+#header-section{
+    background-color: #262626;
+}
+.nav{
+    padding: 0 10px;
+}
+.logo{
+    width: 30%;
+}
+.logo p{
+    color: crimson;
+    font-size: 30px;
+    font-weight: 800;
+}
+.logo p span{
+    color: #fff;
+}
+.navbar{
+    width: 70%;
+    text-align: right;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    color: crimson;
+}
+.active{
+    color: crimson !important;
+}
+/*********************HEADER SECTION END**********************/
+
+
+/********************TOP HEADER SECTION START*****************/
 .left-side{
     width: 50%;
     padding-left: 60px;
     padding-top: 50px;
 }
-
 .left-side h1 span{
     color: crimson;
 }
 .left-side p{
     font-size: 17px;
-    color: #7f8fa6;
+    color: #7f8fff;
     text-align: justify;
     margin-bottom: 35px;
 }
@@ -74,21 +117,22 @@ h1{
 }
 .about-me-title h2{
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 900;
     color: crimson;
 }
 .about-me-title p{
     padding-bottom: 25px;
     text-align: justify;
-    color: #7f8fa6;
+    color: #7f8fff;
 }
 .about-me-title p span{
     color: crimson;
     font-weight: 700;
 }
-/************About-me End***********************/
+/********************TOP HEADER SECTION END*****************/
 
-/************My-recipe Start***********************/
+
+/********************MY RECIPIE SECTION START***************/
 
 .my-recipie-title{
     width: 40%;
@@ -101,10 +145,9 @@ h1{
     color: crimson;
 }
 .my-recipie-title p{
-    color: #7f8fa6;
+    color: #7f8fff;
     font-size: 18px;
 }
-
 .recipie-item{
     width: 95%;
     margin-top: 45px;
@@ -127,13 +170,98 @@ h1{
     margin-bottom:5px;
 }
 .card-body p{
-    color: #7f8fa6;
+    color: #7f8fff;
     font-size: 17px;
 }
-/************My recipe End************************/
+/********************MY RECIPIE SECTION END***************/
 
 
-/************Subscribe Start************************/
+/********************FOOD SECTION START*******************/
+#food-gallery{
+    background-color: #ddd;
+    padding: 40px 0;
+}
+.gallery-title{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.gallery-title h1{
+    color: crimson;
+}
+.gallery-title p{
+    text-align: center;
+    color: #7f8fff;
+    font-size: 18px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+.food{
+    width: 60%;
+    margin: auto; 
+}
+.food-item{
+    width: 48%;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.food-item img{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+/********************FOOD SECTION END*******************/
+
+
+/*******************CONTACT SECTION START***************/
+#contact-me h1{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 70px;
+}
+#contact-me h1 span{
+    color: crimson;
+}
+.order-form{
+    width: 90%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.order-item{
+    width: 50%;
+    padding: 15px 25px;
+}
+input{
+    border: none;
+    background-color: #ddd;
+    padding: 10px 8px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    border: none;
+    background-color: #ddd;
+    padding: 10px 8px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.order-img{
+    width: 50%;
+}
+.order-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+/*******************CONTACT SECTION END***************/
+
+
+/*******************SUBSCRIBE SECTION START***********/
 .subscribe-body{
     width: 90%;
     margin: 100px auto 70px;
@@ -147,10 +275,33 @@ h1{
 .subscribe-item h1{
     font-size: 45px;
     font-weight: 900;
+    color: crimson;
 }
 .subscribe-item p{
     margin-top: -30px;
-    color: #7f8fa6;
+    color: #7f8fff;
 }
 
-/************Subscribe End**************************/
+/*******************SUBSCRIBE SECTION END***********/
+
+
+/*******************FOOTER SECTION START************/
+.footer{
+    background-color: #262626;
+    text-align: center;
+    padding: 30px;
+}
+.footer h1{
+    color: #7f8fff;
+}
+.footer h1 span{
+    color: crimson;
+}
+.footer p{
+    color: #7f8fff;
+    font-size: 17px;
+}
+.footer p span{
+    color: crimson;
+}
+/******************FOOTER SECTION END*************************/
