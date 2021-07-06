@@ -1,6 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
 }
 
 .display-flex{
@@ -12,9 +17,7 @@ body{
     padding-left: 60px;
     padding-top: 50px;
 }
-.left-side h1{
-    font-size: 50px;
-}
+
 .left-side h1 span{
     color: crimson;
 }
@@ -84,3 +87,70 @@ body{
     font-weight: 700;
 }
 /************About-me End***********************/
+
+/************My-recipe Start***********************/
+
+.my-recipie-title{
+    width: 40%;
+    margin: 70px auto 0;
+    text-align: center;
+}
+.my-recipie-title h2{
+    font-size: 32px;
+    font-weight: 900;
+    color: crimson;
+}
+.my-recipie-title p{
+    color: #7f8fa6;
+    font-size: 18px;
+}
+
+.recipie-item{
+    width: 95%;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 33%;
+    margin-left: 50px;
+    box-shadow: 10px 10px 30px gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card img{
+    width: 100%;
+}
+.card-body h3{
+    font-size: 25px;
+    font-weight: 900;
+    color: crimson;
+    margin-bottom:5px;
+}
+.card-body p{
+    color: #7f8fa6;
+    font-size: 17px;
+}
+/************My recipe End************************/
+
+
+/************Subscribe Start************************/
+.subscribe-body{
+    width: 90%;
+    margin: 100px auto 70px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+}
+.subscribe-item{
+    width: 33%;
+    padding: 40px 100px 50px ;
+}
+.subscribe-item h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+.subscribe-item p{
+    margin-top: -30px;
+    color: #7f8fa6;
+}
+
+/************Subscribe End**************************/
