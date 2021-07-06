@@ -156,7 +156,7 @@ h1{
 .card{
     width: 33%;
     margin-left: 50px;
-    box-shadow: 10px 10px 30px gray;
+    box-shadow: 4px 2px 20px gray;
     padding: 20px;
     border-radius: 20px;
 }
@@ -265,7 +265,7 @@ textarea{
 .subscribe-body{
     width: 90%;
     margin: 100px auto 70px;
-    box-shadow: 10px 10px 30px gray;
+    box-shadow: 4px 2px 20px gray;
     border-radius: 20px;
 }
 .subscribe-item{
